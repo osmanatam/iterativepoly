@@ -12,7 +12,8 @@ int main(int argc, char *argv[])
 	b = (int *) malloc(order * sizeof(int));
 	c = (int *) malloc((pow(2,order) - 1) * sizeof(int));
 	
-	printf("Enter the coefficients of A with powers in ascending order:\n");
+	printf("Enter the coefficients of A with powers in ascending order:\n"\
+		"(i.e x^0 x^1 x^2 ... x^n)\n");
 
 	for (i = 0; i < order; i++)
 		scanf("%d", &a[i]);
