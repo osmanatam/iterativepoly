@@ -1,3 +1,8 @@
+/* 
+ * iterpoly.c
+ * Copyright (C) 2013 Tudor Marcu. All rights reserved.
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
