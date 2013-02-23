@@ -37,6 +37,9 @@ int main(int argc, char *argv[])
 			printf("%c %dx^%d ", c[i] < 0 ? '\0' : '+', c[i], i);
 	}
 
+	free(c);
+	free(b);
+	free(a);
 
 	return 0;
 }
